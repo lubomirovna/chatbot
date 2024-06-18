@@ -1,0 +1,9 @@
+.env
+api_app/
+.ipynb_checkpoints/
+.files/
+.chainlit/
+.__pycache__/
+Untitled.ipynb
+Tee_Customizer_FAQ.txt
+app.zip

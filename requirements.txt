@@ -1,0 +1,11 @@
+langchain==0.1.1
+langchain-community==0.0.19
+faiss-cpu
+chainlit
+openai==1.9.0
+python-dotenv==1.0.0
+langchain-openai
+uvicorn==0.25.0
+Flask==3.0.1
+langchain-core
+literalai
