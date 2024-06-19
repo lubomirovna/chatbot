@@ -18,8 +18,8 @@ client = LiteralClient()
 
 @cl.on_chat_start
 def setup_multiple_chains():
-    llm = OpenAI(model='gpt-3.5-turbo-instruct', temperature=0)
-    conversation_memory = ConversationBufferMemory(memory_key="chat_history", max_len=200, return_messages=True)
+    llm = OpenAI(model='gpt-3.5-turbo-instruct', temperature=0.2, )
+    conversation_memory = ConversationBufferMemory(memory_key="chat_history", max_len=200)
     
     # LLM Chain for general conversations
     llm_chain = LLMChain(llm=llm, prompt=assistant_prompt, memory=conversation_memory)
